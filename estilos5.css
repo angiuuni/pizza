@@ -1,0 +1,1455 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.icono{
+    background-image: url(carrera.jpg ); 
+    background-image:  image no repeat;
+    height: 700px;
+    width: 1500px;
+    overflow: hidden;
+    position: relative;
+    animation: movimiento 30s infinite linear alternate;
+    position: relative;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+
+    }to{
+        background-position: top right;
+    }
+
+}
+
+.capa-gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left,black,black);
+    opacity: 0.6;
+}
+
+
+
+.titulo2{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: 8cm;
+    font-family: 'cambria',sans-serif;
+    text-shadow: 0 0 8px rgba(0, 0, 0,0.8);
+
+
+}
+
+.titulos{
+    margin-top: -80px;
+    text-align: center;
+    font-size: 6vmin;
+    font-family: 'cambria',sans-serif;
+
+}
+
+
+
+
+
+.i{
+    width: 400px;
+    height: 350px;
+}
+
+.i2{
+    width: 400px;
+    height: 350px;
+
+}
+
+
+
+
+/*Hover*/
+
+.card {
+ 
+  margin-left: 90px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 100px;
+  margin-left: 2cm;
+
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card:hover::before,
+.card:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card:hover:after {
+  content: " Administración de Empresas";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+
+
+/*obama*/
+
+.card2 {
+    
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+
+.card2::before,
+.card2::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card2::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card2::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card2:hover::before,
+.card2:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    color:white;
+    line-height: 25px;
+   text-align: center;
+   float: center;
+   color: black;
+   
+}
+
+
+
+.card2:hover:after {
+  content: " Antropologia";
+   font-size: 30px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 20px;
+    text-align: justify; 
+}
+
+/*Bill gates*/
+
+.card3 {
+    
+ margin-right: 50px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+   margin-top: 100px;
+
+}
+
+.card3::before,
+.card3::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card3::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card3::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card3:hover::before,
+.card3:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card3:hover:after {
+  content: "cine y Estudios visuales";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    line-height: 20px;
+    text-align: justify; 
+    color: white;
+}
+
+
+
+cositas
+
+/*Hover*/
+
+.card {
+ 
+  margin-left: 90px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 100px;
+  margin-left: 2cm;
+
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card:hover::before,
+.card:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card:hover:after {
+  content: " Administración de Empresas";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+
+
+/*obama*/
+
+.card2 {
+    
+margin-left: 50px;
+margin-right: 50px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+   margin-top: 100px;
+
+}
+
+.card2::before,
+.card2::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card2::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card2::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card2:hover::before,
+.card2:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    color:white;
+    line-height: 25px;
+   text-align: center;
+   float: center;
+   color: black;
+   
+}
+
+
+
+.card2:hover:after {
+  content: " Antropologia";
+   font-size: 30px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 20px;
+    text-align: justify; 
+}
+
+/*Bill gates*/
+
+.card3 {
+    
+ margin-right: 50px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+   margin-top: 100px;
+
+}
+
+.card3::before,
+.card3::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card3::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card3::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card3:hover::before,
+.card3:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card3:hover:after {
+  content: "Cine y Estudios visuales";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    line-height: 20px;
+    text-align: justify; 
+    color: white;
+}
+
+
+.iii{
+    margin-top: 1cm;
+}
+
+hr{
+  
+    margin-top: 20px;
+    margin-right: 3cm;
+   heigh   background-color: red;
+   margin-left: 3cm;
+}
+
+.caja-contenido{
+  background-image: url(f.jpg );
+  height: 900px;
+ opacity: 0.7;
+  margin-top: 50cm;
+
+  
+}
+
+.texto-uno{
+
+ color: wh;
+margin-left: 4cm;
+margin-right: 4cm;
+margin-top: 2rem;
+font-size: 40px;
+ font-family: 'poppins',sans-serif;
+ text-align: justify;
+ text line-height: 15px;
+ line-height: 50px;
+
+}
+
+
+
+
+
+.card4 {
+ 
+  margin-left: 90px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 100px;
+  margin-left: 2cm;
+
+}
+
+.card4::before,
+.card4::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card4::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card4::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card4:hover::before,
+.card4:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card4:hover:after {
+  content: " Astrofisica";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 20px;
+    text-align: justify;
+  
+}
+
+
+.card5 {
+ 
+  margin-left: 90px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 100px;
+  margin-left: 1.5cm;
+
+}
+
+.card5::before,
+.card5::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card5::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card5::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card5:hover::before,
+.card5:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card5:hover:after {
+  content: " Biongieneria";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+
+
+
+.card4:hover:after {
+  content: " Astrofisica";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+.card6 {
+ 
+  margin-left: 90px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 100px;
+  margin-left: 2cm;
+
+}
+
+.card6::before,
+.card6::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card6::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card6::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card6:hover::before,
+.card6:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card6:hover:after {
+  content: " Diferentes ramas de la Biologia";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+
+
+
+.card7:hover:after {
+  content: " Astrofisica";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+.card7{
+ 
+  margin-left: 90px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 100px;
+  margin-left: 2cm;
+
+}
+
+.card7::before,
+.card7::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card7::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card7::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card7:hover::before,
+.card7:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card7:hover:after {
+  content: "Diferentes Ramas de La Ciencia";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+
+
+.card8:hover:after {
+  content: " Astrifisica";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+.card8 {
+ 
+  margin-left: 90px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 100px;
+  margin-left: 2cm;
+
+}
+
+.card8::before,
+.card8::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card8::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card8::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card8:hover::before,
+.card8:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card8:hover:after {
+  content: " Lenguas";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+
+
+.card9:hover:after {
+  content: " Astrifisica";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+.card9 {
+ 
+  margin-left: 90px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 100px;
+  margin-left: 2cm;
+
+}
+
+.card9::before,
+.card9::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card9::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card9::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card9:hover::before,
+.card9:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card9:hover:after {
+  content: " Estadistica";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+
+
+.card10 {
+ 
+  margin-left: 90px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 100px;
+  margin-left: 2cm;
+
+}
+
+.card10::before,
+.card10::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card10::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card10::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card10:hover::before,
+.card10:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card10:hover:after {
+  content: " Historia ";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+
+
+.card11 {
+ 
+  margin-left: 90px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 100px;
+  margin-left: 2cm;
+
+}
+
+.card11::before,
+.card11::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card11::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card11::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card11:hover::before,
+.card11:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card11:hover:after {
+  content: " Matematicas";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+
+
+.card12 {
+ 
+  margin-left: 90px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 100px;
+  margin-left: 2cm;
+
+}
+
+.card12::before,
+.card12::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #761616;
+  transition: all 0.5s;
+}
+
+.card12::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card12::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card12:hover::before,
+.card12:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card12:hover:after {
+  content: " Medicina";
+   font-size: 25px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 10px;
+    text-align: justify;
+  
+}
+
+
+.contactt {
+    margin-top: 2cm;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: black;
+    height: 650px;
+    margin-left: 0cm;
+}
+
+    .container-6{
+    font-size: 16px;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    line-height: 24px;
+    margin-left: 2cm;
+    text-align: justify;
+    margin-top: 2cm;
+    margin-right: 10cm;
+    text-align: justify;
+    margin-left: 8cm;
+}
+
+
+
+.contact {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #171717;
+    height: 350px;
+    margin-left: 0cm;
+    
+    
+}
+
+
+.footer-section{
+    display: flex;
+
+
+}
+
+    .title{
+        margin-top: 1px;
+        margin-left: 60px;
+        color: white;
+        font-size: 50px;
+        text-align: left;
+        font-family: 'poppins',sans-serif;
+
+
+}
+.f-enlaces {
+    display: flex;
+    flex-direction: abosolute;
+    padding: 30px 50px;
+
+}
+
+.f-enlaces a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    float: right;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: 'poppins',sans-serif;
+    
+}
+
+.f-enlaces {
+    font-size: 18px;
+    padding: `3px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+.f-enlaces :hover{
+    background: #D0AEE6;
+    transition: .5s;
+}

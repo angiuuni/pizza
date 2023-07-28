@@ -1,0 +1,585 @@
+
+
+
+
+.icono{
+    background-image: url(primera2.jpg ); 
+    background-image:  image no repeat;
+    height: 550px;
+    width: 1500px;
+    overflow: hidden;
+    position: relative;
+    animation: movimiento 2s infinite linear alternate;
+    position: relative;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+
+    }to{
+        background-position: top right;
+    }
+
+}
+
+.capa-gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left,black,black);
+    opacity: 0.3;
+}
+
+
+
+.titulo2{
+    font-size: 5rem;
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 5%;
+    font-family: 'cambria',sans-serif;
+    text-shadow: 0 0 8px rgba(0, 0, 0,0.8);
+
+}
+
+
+
+
+    .titulo{
+        top: 3cm;
+    font-size: 3rem;
+    font-family: 'cambria',sans-serif;
+    color:#761616;
+    line-height: 24px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-image-repeat: 1cm;
+}
+
+    .contenido{
+    font-size: 16px;
+    font-family: 'poppins',sans-serif;
+    color:black;
+    line-height: 24px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-image-repeat: 1cm;
+    text-align: justify;
+
+ }
+
+    .imagen{
+        background-image: url(primera3.jpg);
+        width: 520px;
+        height: 550px;
+       transition: all 0.5s ease;
+       float: left;
+        margin-right: 3cm;
+
+    }
+
+    .imagen:hover{
+    transform:scale(0.9);
+ }
+
+
+
+
+
+
+.about {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: black;
+    height: 700px;
+
+
+}
+
+
+.box-container2{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+.box-container2 .box img {
+    text-align: center;
+    background: black;
+    margin: 20px 20px;
+    transition: all 20s ease;
+}
+    .box-container2:hover{
+    transform:scale(0.9);
+ }
+
+.box-container2 .box img {
+    height: 280px;
+    width: 400px;
+    object-fit: cover;
+    margin-top: -50px;
+    border: 5px solid black;
+  }
+
+
+
+ .titulo-final{
+        
+    font-size: 2.5rem;
+    font-family: 'cambria',sans-serif;
+    color:#761616;
+    line-height: 24px;
+    margin-left: 50px;
+    border-image-repeat: 1cm;
+    text-align: left;
+    
+
+}
+
+    .contenido-final{
+    font-size: 16px;
+    font-family: 'poppins',sans-serif;
+    color:black;
+    line-height: 24px;
+    margin-left: 50px;
+    border-image-repeat: 1cm;
+    text-align: left;
+   text-align: justify;
+
+
+   
+
+
+ }
+
+    .ima-fin{
+        background-image: url(final.jpeg);
+        width: 550px;
+        height: 450px;
+       transition: all 0.5s ease;
+       float: right;
+       margin-right: 2cm;
+      margin: 3cm;
+    }
+
+    .ima-fin:hover{
+    transform:scale(0.9);
+ }
+
+
+
+
+.iii{
+    display: flex;
+
+}
+
+
+.i{
+    width: 400px;
+    height: 350px;
+}
+
+.i2{
+    width: 400px;
+    height: 350px;
+}
+
+
+
+
+/*Hover*/
+
+.card {
+top: 1cm;
+  margin-left: 40px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+  margin-top: 150px;
+
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.card::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card:hover::before,
+.card:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    color:black;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card:hover:after {
+  content: " Mark Zuckerberg";
+   font-size: 30px;
+    font-family: 'poppins',sans-serif;
+    color:#761616;
+    line-height: 20px;
+    text-align: justify; 
+}
+
+
+
+
+/*obama*/
+
+.card2 {
+    top: 1cm;
+margin-left: 50px;
+margin-right: 50px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+   margin-top: 150px;
+
+}
+
+.card2::before,
+.card2::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.card2::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card2::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card2:hover::before,
+.card2:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    color:white;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card2:hover:after {
+  content: " Barack Obama";
+   font-size: 30px;
+    font-family: 'poppins',sans-serif;
+    color:#761616;
+    line-height: 20px;
+    text-align: justify; 
+}
+
+/*Bill gates*/
+
+.card3 {
+    top: 1cm;
+ margin-right: 50px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  float: left;
+   margin-top: 150px;
+
+}
+
+.card3::before,
+.card3::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.card3::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.card3::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.card3:hover::before,
+.card3:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.title{
+     font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    color:black;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   
+}
+
+
+
+.card3:hover:after {
+  content: "Bill Gates";
+   font-size: 30px;
+    font-family: 'poppins',sans-serif;
+    color:#761616;
+    line-height: 20px;
+    text-align: justify; 
+}
+
+.boxxx{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: black;
+    height: 650px;
+}
+
+
+.text-3{
+
+    font-size: 2rem;
+    font-family: 'cambria',sans-serif;
+    color:black;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   color: white;
+}
+
+.title{
+
+    font-size: 3rem;
+    font-family: 'cambria',sans-serif;
+    color:white;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   color: white;
+}
+
+.title-abajo{
+
+    font-size: 30px;
+    font-family: 'cambria',sans-serif;
+    color:white;
+    line-height: 30px;
+   text-align: center;
+   float: center;
+   color: white;
+}
+
+ .tituloo{
+   margin-top: 21cm;
+    font-size: 30px;
+    font-family: 'cambria',sans-serif;
+    color:#761616;
+    line-height: 24px;
+     margin-left: -30cm; 
+      padding-left: 500px;
+      border-image-repeat: 20px;
+
+
+}
+
+  
+.tituloo-1{
+    font-size: 18px;
+    font-family: 'poppins',sans-serif;
+    color:black;
+    line-height: 24px;
+    border-image-repeat: 1cm;
+    margin-left: -4cm;
+    margin-right: 1.5cm;
+    text-align: justify;
+
+     
+
+}
+
+
+
+
+
+ .imagenn{
+        margin-top: 19cm;
+        width: 500px;
+        height: 600px;
+       transition: all 0.5s ease;
+       float: left;
+      margin-left: -40cm; 
+      padding-left: 140px;
+
+    }
+
+    .imagenn:hover{
+    transform:scale(0.9);
+ }
+
+
+.contact {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #171717;
+    height: 350px;
+    margin-left: 0cm;
+    
+}
+
+
+.footer-section{
+    display: flex;
+
+
+}
+
+    .title{
+        margin-top: 1px;
+        margin-left: 60px;
+        color: white;
+        font-size: 50px;
+        text-align: left;
+        font-family: 'poppins',sans-serif;
+
+
+}
+.f-enlaces {
+    display: flex;
+    flex-direction: abosolute;
+    padding: 30px 50px;
+
+}
+
+.f-enlaces a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    float: right;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: 'poppins',sans-serif;
+    
+}
+
+.f-enlaces {
+    font-size: 18px;
+    padding: `3px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+.f-enlaces :hover{
+    background: #D0AEE6;
+    transition: .5s;
+}
